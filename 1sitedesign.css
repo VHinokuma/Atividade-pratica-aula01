@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: left;
+    font-size: 300%;
+}
+
+h2 {
+    color: white;
+    font-size: 200%;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: first baseline;
+    gap: 70px;
+}
+
+/*muda a quantidade de colunas de acordo com o diâmetro da tela*/
+div.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+div.flex-container > div {
+  margin: 10px;
+}
+
+@media screen and (max-width:600px) {
+  div.flex-container {
+    flex-direction: column;
+  }
+}
+/****************************************************************/
+
+a {
+    color:cyan;
+}
